@@ -5,9 +5,7 @@ import  '../../../src/index.css';
 const DbooksUrl =()=>
 {
     return (
-        <div class="similar">
-       <a href="https://books.zuri.team/design-rules /" class="linktext">Zuri Team</a>
-       </div>
+       <a href="https://books.zuri.team/design-rules /" class="linktext" id='book__design'>Design Books</a>
     )
 }
 class DesignBooks extends React.Component {    

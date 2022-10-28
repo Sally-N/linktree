@@ -5,10 +5,8 @@ import  '../../../src/index.css';
 const ZteamUrl =()=>
 {
     return (
-        <div class="similar">
-       <a href="https://training.zuri.team/" class="linktext">Zuri Team</a>
-       </div>
-    )
+         <a href="https://training.zuri.team/" id='‘btn__zuri' class="linktext">Zuri Team</a>
+       )
 }
 class ZuriTeam extends React.Component {    
     render(){

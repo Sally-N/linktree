@@ -5,9 +5,7 @@ import  '../../../src/index.css';
 const PbooksUrl =()=>
 {
     return (
-        <div class="similar">
-       <a href="https://books.zuri.team/python-for-beginners?ref_id=khal" class="linktext">Zuri Team</a>
-       </div>
+       <a href="https://books.zuri.team/python-for-beginners?ref_id=khal" class="linktext" id="book__python">Python Books</a>
     )
 }
 class PythonBooks extends React.Component {    

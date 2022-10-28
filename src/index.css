@@ -19,18 +19,18 @@
        align-items: center;
    }
    
-   #profilepic {
+   #profile__img {
        padding: 0px;
        width: 88px;
        height: 88px;
        width: 88px;
        height: 88px;
        left: 148px;
-       top: 16px;
+       /* top: 16px; */
        border-radius: 275px;
    }
    
-   #Name {
+   #twitter {
        width: 1152px;
        height: 30px;
        /* Text xl/Bold */
@@ -49,30 +49,27 @@
        flex-grow: 1;
    }
    
-   .similar {
-       margin: 24px 72px 24px 72px;
+   #slack {
+       visibility: hidden;
+   }
+   
+   .linktext {
+       margin: 24px 144px 24px 144px;
        display: flex;
        flex-direction: row;
        justify-content: center;
        align-items: center;
        padding: 24px 32px;
        gap: 8px;
-       width: 1152px;
+       width: 1000px;
        height: 38px;
        /* Gray/200 */
        background: #EAECF0;
        /* Gray/200 */
        border: 1px solid #EAECF0;
        border-radius: 8px;
-       /* Inside auto layout */
-       flex: none;
-       order: 0;
-       flex-grow: 1;
-   }
-   
-   .linktext {
        /* Text */
-       width: 101px;
+       /* width: 10px; */
        height: 28px;
        /* Text lg/Medium */
        font-family: 'Inter';
@@ -91,4 +88,9 @@
        flex: none;
        order: 0;
        flex-grow: 0;
+   }
+   
+   a:hover {
+       transition: 0.3s;
+       background: #D0D5DD;
    }

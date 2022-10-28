@@ -5,9 +5,7 @@ import  '../../../src/index.css';
 const BcheckersUrl =()=>
 {
     return (
-        <div class="similar">
-       <a href="https://background.zuri.team" class="linktext">Zuri Team</a>
-       </div>
+       <a href="https://background.zuri.team" class="linktext" id='pitch'>Background Check For Coders</a>
     )
 }
 class Bcheck extends React.Component {    

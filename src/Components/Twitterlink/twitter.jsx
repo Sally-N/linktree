@@ -5,9 +5,7 @@ import  '../../../src/index.css';
 const TwitterUrl =()=>
 {
     return (
-        <div class="similar">
        <a href="https://twitter.com/talia_kin" class="linktext">Twitter Link</a>
-       </div>
     )
 }
 class Twitter extends React.Component {    
