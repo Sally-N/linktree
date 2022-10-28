@@ -1,17 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from './Components/Header/header';
+// eslint-disable-next-line no-unused-vars
+import Twitter from './Components/Twitterlink/twitter';
+import ZuriTeam from './Components/ZuriTeam/zuriteam';
+import ZuriBooks from './Components/ZuriBooks/zuribooks';
+import PythonBooks from './Components/PythonBooks/pythonbooks';
+import Bcheck from './Components/BackgroundCheck/backgroundcheckers';
+import DesignBooks from './Components/DesignTools/design';
 
+
+// eslint-disable-next-line no-unused-vars
+class LinkTree extends React.Component
+{
+  render(){
+    return (
+      <div className="page">
+      <Header/>
+      <Twitter/>
+      <ZuriTeam/>
+      <ZuriBooks/>
+      <PythonBooks/>
+      <Bcheck/>
+      <DesignBooks/>
+      </div>
+    );
+  }
+
+}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <div>
+  <LinkTree />
+  </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
