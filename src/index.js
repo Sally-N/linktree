@@ -9,6 +9,7 @@ import ZuriBooks from './Components/ZuriBooks/zuribooks';
 import PythonBooks from './Components/PythonBooks/pythonbooks';
 import Bcheck from './Components/BackgroundCheck/backgroundcheckers';
 import DesignBooks from './Components/DesignTools/design';
+import Gitandslack from './Components/GitandSlack/gitslack';
 
 
 // eslint-disable-next-line no-unused-vars
@@ -24,6 +25,8 @@ class LinkTree extends React.Component
       <PythonBooks/>
       <Bcheck/>
       <DesignBooks/>
+      <Gitandslack/>     
+      
       </div>
     );
   }

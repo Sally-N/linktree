@@ -5,7 +5,7 @@ import  '../../../src/index.css';
 const TwitterUrl =()=>
 {
     return (
-       <a href="https://twitter.com/talia_kin" class="linktext">Twitter Link</a>
+       <a href="https://twitter.com/talia_kin" class="linktext" id='first'>Twitter Link</a>
     )
 }
 class Twitter extends React.Component {    
