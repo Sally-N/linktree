@@ -1,128 +1,200 @@
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box
-        }
-        /* #root {
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-end;
-       align-items: center;
-       padding: 0px 0px 8px;
-   } */
-        
-        .headerpart {
-            margin-top: 64px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #profile__img {
-            padding: 0px;
-            height: 88px;
-            width: 88px;
-            left: 148px;
-            /* top: 16px; */
-            border-radius: 275px;
-        }
-        
-        #twitter {
-            width: 1152px;
-            height: 30px;
-            /* Text xl/Bold */
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 30px;
-            /* identical to box height, or 150% */
-            text-align: center;
-            /* Gray/900 */
-            color: #101828;
-            /* Inside auto layout */
-            flex: none;
-            order: 0;
-            flex-grow: 1;
-            margin-bottom: 30px;
-        }
-        
-        #slack {
-            visibility: hidden;
-            height: 0;
-            width: 0;
-        }
-        
-        #first {
-            margin-top: 20px;
-        }
-        
-        .linktext {
-            margin: 24px 144px 24px 144px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 24px 32px;
-            gap: 8px;
-            width: 1000px;
-            height: 38px;
-            /* Gray/200 */
-            background: #EAECF0;
-            /* Gray/200 */
-            border: 1px solid #EAECF0;
-            border-radius: 8px;
-            /* Text */
-            /* width: 10px; */
-            height: 28px;
-            /* Text lg/Medium */
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 18px;
-            line-height: 28px;
-            text-decoration: none;
-            /* identical to box height, or 156% */
-            display: flex;
-            align-items: center;
-            text-align: center;
-            /* Gray/900 */
-            color: #101828;
-            /* Inside auto layout */
-            flex: none;
-            order: 0;
-            flex-grow: 0;
-        }
-        
-        a:hover,
-        a:focus,
-        a:active {
-            transition: 0.3s;
-            background: #D0D5DD;
-            /* background: #0070f3; */
-        }
-        
-        .smallicons {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            height: 72px;
-            margin-top: 24px;
-        }
-        
-        #gitwrap {
-            height: 20px;
-            width: 20px;
-        }
-        
-        #slackIcon {
-            width: 20px;
-            height: 20px;
-        }
-        
-        #gitIcon {
-            fill: solid #000000;
-            width: 20px;
-            height: 20px;
-        }
+                                body {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    width: 1440px;
+                                }
+                                
+                                #root {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 0px;
+                                }
+                                
+                                .main {
+                                    width: Fill (1, 216px);
+                                    height: Hug (774px);
+                                    top: 64px;
+                                    /* left: 112px; */
+                                    padding: 0px, 32px, 0px, 32px;
+                                    gap: 32px
+                                }
+                                
+                                .content {
+                                    width: Fill (1, 152px);
+                                    height: Hug (774px);
+                                    /* left: 32px; */
+                                    gap: 56px;
+                                }
+                                
+                                .headerpart {
+                                    margin-top: 15px;
+                                    width: 1340px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                /* .arrow-section {
+            right: 60px;
+            top: 20px;
+            position: relative;
+            width: 15px;
+            height: 15px;
+            margin-left: 800px;
+        } */
+                                
+                                #profile__img {
+                                    display: block;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    /* align-items: center; */
+                                    padding: 0px;
+                                    height: 88px;
+                                    width: 88px;
+                                    /* left: 148px; */
+                                    /* margin-right: 70px; */
+                                    top: 16px;
+                                    border-radius: 275px;
+                                }
+                                
+                                #twitter {
+                                    /* margin-left: 144px;
+                        margin-right: 144px; */
+                                    height: 30px;
+                                    /* Text xl/Bold */
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    /* identical to box height, or 150% */
+                                    text-align: center;
+                                    /* Gray/900 */
+                                    color: #101828;
+                                    /* Inside auto layout */
+                                    /* flex: none;
+                        order: 0;
+                        flex-grow: 1; */
+                                }
+                                
+                                #slack {
+                                    visibility: hidden;
+                                    height: 0;
+                                    width: 0;
+                                }
+                                
+                                #first {
+                                    margin-top: 20px;
+                                }
+                                
+                                .linktext {
+                                    margin: 24px 144px 24px 144px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    align-items: center;
+                                    padding: 24px 32px;
+                                    gap: 8px;
+                                    width: 1000px;
+                                    height: 38px;
+                                    /* Gray/200 */
+                                    background: #EAECF0;
+                                    /* Gray/200 */
+                                    border: 1px solid #EAECF0;
+                                    border-radius: 8px;
+                                    /* Text */
+                                    /* width: 10px; */
+                                    height: 28px;
+                                    /* Text lg/Medium */
+                                    font-family: 'Inter';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 28px;
+                                    text-decoration: none;
+                                    /* identical to box height, or 156% */
+                                    display: flex;
+                                    align-items: center;
+                                    text-align: center;
+                                    /* Gray/900 */
+                                    color: #101828;
+                                    /* Inside auto layout */
+                                    flex: none;
+                                    order: 0;
+                                    flex-grow: 0;
+                                }
+                                
+                                a:hover,
+                                a:focus,
+                                a:active {
+                                    transition: 0.3s;
+                                    background: #D0D5DD;
+                                    /* background: #0070f3; */
+                                }
+                                
+                                .smallicons {
+                                    width: 1320px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: center;
+                                    height: 72px;
+                                    margin-top: 24px;
+                                }
+                                
+                                #gitwrap {
+                                    height: 20px;
+                                    width: 20px;
+                                }
+                                
+                                #slackIcon {
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 10px;
+                                }
+                                
+                                #gitIcon {
+                                    fill: solid #000000;
+                                    width: 24px;
+                                    height: 24px;
+                                    margin-left: 30px;
+                                }
+                                
+                                .bottom {
+                                    width: 1400px;
+                                    height: 160px;
+                                    display: flex;
+                                    flex-direction: row;
+                                    padding: 10px 15px;
+                                    align-items: center;
+                                    justify-content: flex-start;
+                                }
+                                
+                                #zuriinternship {
+                                    width: 185.59px;
+                                    height: 32px;
+                                    top: 6.98px;
+                                    left: 1.36px;
+                                    padding-left: 120px;
+                                    margin-right: 50px;
+                                }
+                                
+                                #lasttext {
+                                    font: Inter;
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    text-align: Center;
+                                    width: 600px;
+                                    height: 32px;
+                                    margin-right: 80px;
+                                }
+                                
+                                #ingressive {
+                                    width: 132.13px;
+                                    height: 32px;
+                                    margin-left: 50px;
+                                }

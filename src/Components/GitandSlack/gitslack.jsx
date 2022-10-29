@@ -10,9 +10,12 @@ const Slackicon =()=> {
 }
 
 const Giticon =()=>{
-    // <a href="https://github.com/Sally-N/" id='gitwrap'>
+
+    return(
+        <a href="https://github.com/Sally-N/" id='gitwrap'>
     <img src={githubImage} alt='Githublink' id='gitIcon'/>
-    // </a>
+     </a>)
+    
 }
 
 class Gitandslack extends React.Component{

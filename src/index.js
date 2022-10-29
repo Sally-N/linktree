@@ -10,6 +10,7 @@ import PythonBooks from './Components/PythonBooks/pythonbooks';
 import Bcheck from './Components/BackgroundCheck/backgroundcheckers';
 import DesignBooks from './Components/DesignTools/design';
 import Gitandslack from './Components/GitandSlack/gitslack';
+import Footer from './Components/Footer/footer';
 
 
 // eslint-disable-next-line no-unused-vars
@@ -18,6 +19,8 @@ class LinkTree extends React.Component
   render(){
     return (
       <div className="page">
+        <div class="main">
+        <div class="content">
       <Header/>
       <Twitter/>
       <ZuriTeam/>
@@ -25,9 +28,11 @@ class LinkTree extends React.Component
       <PythonBooks/>
       <Bcheck/>
       <DesignBooks/>
-      <Gitandslack/>     
-      
       </div>
+      </div>
+      <Gitandslack/> 
+      <Footer/>    
+         </div>
     );
   }
 
