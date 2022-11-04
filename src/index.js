@@ -11,6 +11,7 @@ import Bcheck from './Components/BackgroundCheck/backgroundcheckers';
 import DesignBooks from './Components/DesignTools/design';
 import Gitandslack from './Components/GitandSlack/gitslack';
 import Footer from './Components/Footer/footer';
+import Clink from './Components/Contact/contactlink';
 
 
 // eslint-disable-next-line no-unused-vars
@@ -28,6 +29,7 @@ class LinkTree extends React.Component
       <PythonBooks/>
       <Bcheck/>
       <DesignBooks/>
+      <Clink/>
       </div>
       </div>
       <Gitandslack/> 
