@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Switch, Routes, Route } from "react-router-dom"
-import LinkTree from ".";
+import LinkTree from "./index";
 import ContactFormPage from "./Components/Contact/contact";
 
 function App() {
   return (
-    <BrowserRouter basename='/index.html'>
+    <BrowserRouter>
     <Switch>
       <Routes>
       <Route path="/linktree" element={<LinkTree/>} />
