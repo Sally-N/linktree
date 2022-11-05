@@ -8,12 +8,12 @@ const BcheckersUrl =()=>
        <a href="https://background.zuri.team" class="linktext" id='pitch'>Background Check For Coders</a>
     )
 }
-const Bcheck = {    
-    render(){
+const Bcheck = () => {    
+    
             return (
             <BcheckersUrl/>
         );
             }
-    }
+    
 
 export default Bcheck;
