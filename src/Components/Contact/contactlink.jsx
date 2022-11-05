@@ -5,7 +5,7 @@ import  '../../../src/index.css';
 const ContactLink =()=>
 {
     return (
-       <a href="/linktree/" class="linktext" id='contact'>Contact Me</a>
+       < a href="/contact" class="linktext" id='contact'>Contact Me</a>
     )
 }
 class Clink extends React.Component {    
