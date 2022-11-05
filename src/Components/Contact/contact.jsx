@@ -1,43 +1,44 @@
 import React from 'react';
-import 'contact.css';
 import Footer from '../Footer/footer';
-import '../../../src/index.css'
+import '../../../src/index.css';
+import '../Contact/contactfile.css'
 
-class ContactFormPage extends React.Component {
+const ContactFormPage = ()  => {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            firstName: '',
-            lastName: '',
-            email: '',
-            message: '',
-            checkbox: ''
-        }
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-
-    handleChange(event) {
-        this.setState({
-            firstName: event.target.value,
-            lastName: event.target.value,
-            email: event.target.value,
-            message: event.target.value,
-            checkbox: event.target.value
-        });
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //         firstName: '',
+    //         lastName: '',
+    //         email: '',
+    //         message: '',
+    //         checkbox: ''
+    //     }
+    //     this.handleChange = this.handleChange.bind(this);
+    // }
 
 
-    handleSubmit(event) {
-        event.preventDefault()
-    }
+    // handleChange(event) {
+    //     this.setState({
+    //         firstName: event.target.value,
+    //         lastName: event.target.value,
+    //         email: event.target.value,
+    //         message: event.target.value,
+    //         checkbox: event.target.value
+    //     });
+    // }
+
+
+    // handleSubmit(event) {
+    //     event.preventDefault()
+    // }
 
 
 
-    render() {
-
-        return (
+    // eslint-disable-next-line no-undef
+    render()
+     // eslint-disable-next-line no-lone-blocks
+     {        return (
             <div className='formPage'>
                 <header className='containerContactPage'>
                     <div className='contentCP'>
@@ -97,6 +98,7 @@ class ContactFormPage extends React.Component {
             </div>
         )
     }
+
 
 }
 

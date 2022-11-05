@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './Components/Header/header';
 // eslint-disable-next-line no-unused-vars
@@ -14,35 +13,28 @@ import Footer from './Components/Footer/footer';
 import Clink from './Components/Contact/contactlink';
 
 
+
 // eslint-disable-next-line no-unused-vars
-class LinkTree extends React.Component
-{
-  render(){
-    return (
+const LinkTree = () =>{
+     return (
       <div className="page">
         <div class="main">
-        <div class="content">
-      <Header/>
-      <Twitter/>
-      <ZuriTeam/>
-      <ZuriBooks/>
-      <PythonBooks/>
-      <Bcheck/>
-      <DesignBooks/>
-      <Clink/>
+          <div class="content">
+            <Header />
+            <Twitter />
+            <ZuriTeam />
+            <ZuriBooks />
+            <PythonBooks />
+            <Bcheck />
+            <DesignBooks />
+            <Clink />
+          </div>
+        </div>
+        <Gitandslack />
+        <Footer />
       </div>
-      </div>
-      <Gitandslack/> 
-      <Footer/>    
-         </div>
     );
   }
 
-}
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <div>
-  <LinkTree />
-  </div>
-);
+export default LinkTree;
 

@@ -8,7 +8,7 @@ const BcheckersUrl =()=>
        <a href="https://background.zuri.team" class="linktext" id='pitch'>Background Check For Coders</a>
     )
 }
-class Bcheck extends React.Component {    
+const Bcheck = {    
     render(){
             return (
             <BcheckersUrl/>
